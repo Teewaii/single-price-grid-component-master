@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@500;700&family=Karla:wght@400;700&family=Lexend+Deca&family=Libre+Franklin:wght@300;600;700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,400&family=Roboto:wght@100;300;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+}
+
+html,
+body {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    Font-size: 16px;
+    letter-spacing: -.5px;
+    max-width: 100vh;
+    padding: 2rem;
+    background-color: var(--LightGray);
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: .9rem;
+    margin-bottom: .8rem;
+    font-weight: 600;
+}
+
+section {
+
+    padding: 1.5rem;
+}
+
+.container .our-community {
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+
+.container .our-community h1 {
+    color: var(--Cyan);
+}
+
+.container .our-community h3 {
+    color: var(--BrightYellow);
+    font-size: .7rem;
+    margin-bottom: .8rem;
+    max-width: 220px;
+}
+
+.container .our-community p {
+    color: var(--GrayishBlue);
+    font-size: .8rem;
+    margin-bottom: .8rem;
+    line-height: 1.3rem;
+    max-width: 220px;
+    text-align: justify;
+}
+
+.container .monthly-sub {
+    background-color: var(--Cyan);
+    width: 220px;
+
+}
+
+.container .monthly-sub h1 {
+    color: white;
+}
+
+.container .monthly-sub h2 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: .5rem;
+}
+
+
+.container .monthly-sub p {
+    color: white;
+    max-width: 220px;
+    font-size: 13px;
+    margin-bottom: .8rem;
+    line-height: 1.3rem;
+
+}
+
+.container .monthly-sub a {
+    color: white;
+    padding: .8rem 1.8rem;
+    background-color: var(--BrightYellow);
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    border-radius: .3rem;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, .2);
+}
+
+
+span {
+    font-size: .8rem;
+    margin-left: .4rem;
+    font-weight: lighter;
+    color: white;
+    opacity: .5;
+}
+
+
+.container .why-us {
+    background-color: var(--Cyan);
+    opacity: .85;
+    width: 220px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: white;
+    margin-bottom: .7rem;
+}
+
+.container .why-us p {
+    color: white;
+    font-size: .7rem;
+    letter-spacing: .3px;
+    font-weight: 300;
+    line-height: 1rem;
+    max-width: 220px;
+    text-align: left;
+    opacity: .7;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
