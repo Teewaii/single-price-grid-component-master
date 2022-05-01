@@ -1,0 +1,121 @@
+
+
+h1 {
+    font-size: .9rem;
+    margin-bottom: .8rem;
+    font-weight: 600;
+}
+
+section {
+
+    padding: 1.5rem;
+}
+
+.container .our-community {
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+
+.container .our-community h1 {
+    color: var(--Cyan);
+}
+
+.container .our-community h3 {
+    color: var(--BrightYellow);
+    font-size: .7rem;
+    margin-bottom: .8rem;
+    max-width: 220px;
+}
+
+.container .our-community p {
+    color: var(--GrayishBlue);
+    font-size: .8rem;
+    margin-bottom: .8rem;
+    line-height: 1.3rem;
+    max-width: 220px;
+    text-align: justify;
+}
+
+.SecondSection .monthly-sub {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    width: 250px;
+    margin: auto;
+
+}
+
+.container .monthly-sub {
+    background-color: var(--Cyan);
+    width: 220px;
+
+}
+
+.container .monthly-sub h1 {
+    color: white;
+}
+
+.container .monthly-sub h2 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: .5rem;
+}
+
+
+.container .monthly-sub p {
+    color: white;
+    max-width: 220px;
+    font-size: 13px;
+    margin-bottom: .8rem;
+    line-height: 1.3rem;
+
+}
+
+.container .monthly-sub a {
+    color: white;
+    padding: .5rem 1.8rem;
+    background-color: var(--BrightYellow);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    border-radius: .3rem;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, .2);
+}
+
+
+span {
+    font-size: .8rem;
+    margin-left: .4rem;
+    font-weight: lighter;
+    color: white;
+    opacity: .5;
+}
+
+
+.container .why-us {
+    background-color: var(--Cyan);
+    opacity: .85;
+    width: 220px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: white;
+}
+
+.container .our-community p {
+    color: var(--GrayishBlue);
+    font-size: .8rem;
+    margin-bottom: .8rem;
+    line-height: 1.3rem;
+    max-width: 220px;
+    text-align: justify;
+}
+
