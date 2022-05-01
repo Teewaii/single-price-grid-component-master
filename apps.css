@@ -20,9 +20,6 @@ body {
     Font-size: 16px;
     letter-spacing: -.5px;
     max-width: 100vh;
-    padding: 2rem;
-    background-color: var(--LightGray);
-    margin: auto;
 }
 
 .container {
@@ -30,6 +27,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem;
+    background-color: var(--LightGray);
 }
 
 h1 {
@@ -100,10 +99,9 @@ section {
 
 .container .monthly-sub a {
     color: white;
-    padding: .8rem 1.8rem;
+    padding: .5rem 1.8rem;
     background-color: var(--BrightYellow);
     display: block;
-    font-weight: 600;
     text-align: center;
     text-decoration: none;
     font-size: .8rem;
@@ -129,18 +127,15 @@ span {
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     color: white;
-    margin-bottom: .7rem;
 }
 
-.container .why-us p {
-    color: white;
-    font-size: .7rem;
-    letter-spacing: .3px;
-    font-weight: 300;
-    line-height: 1rem;
+.container .our-community p {
+    color: var(--GrayishBlue);
+    font-size: .8rem;
+    margin-bottom: .8rem;
+    line-height: 1.3rem;
     max-width: 220px;
-    text-align: left;
-    opacity: .7;
+    text-align: justify;
 }
 
 
